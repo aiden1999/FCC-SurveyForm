@@ -1,0 +1,60 @@
+body {
+  background-color: #f0fff0;
+  font-family: "Verdana";
+  color: #006400;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+label {
+  display: block;
+}
+
+h1 {
+  padding-left: auto;
+  padding-right: auto;
+  width: 100%;
+  text-align: center;
+  font-size: 50;
+}
+
+div {
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-top-color: #006400;
+}
+
+.section1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input[type="submit"] {
+  width: auto;
+  font-size: 20;
+  padding: 10px;
+  display: block;
+  margin: 20px auto;
+  background-color: #006400;
+  color: #FFFFFF
+}
+
+textarea {
+  width: 100%;
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  margin-top: 5px;
+}
+
+.div2 {
+  margin-top: 20px;
+}
