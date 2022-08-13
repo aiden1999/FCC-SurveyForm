@@ -9,31 +9,55 @@
   <h1 id="title">Survey Title</h1>
   <p id="description">This is the description of this survey.</p>
   <form id="survey-form">
-    <label id="name-label">Enter your name:
-      <input id="name" type="text" placeholder="Enter your name"></input>
-    </label>
-    <label id="email-label">Enter your email:
-      <input id="email" type="email" placeholder="Enter your email"></input>
-    </label>
-    <label id="number-label">Enter an integer between -1 and 11 (exclusive):
-      <input id="number" type="number" min="0" max="10" placeholder="Enter number"></input>
-    </label>
-    <p>Select an option:</p>
-    <select id="dropdown">
-      <option disabled selected>Please select an option</option>
-      <option value="option-a">Option 1</option>
-      <option value="option-2">Option B</option>
-    </select>
-    <p>Select only one of these options:</p>
-    <label>
-      <input type="radio" name="rb" value="this-one" checked>
-      This one
-    </label>
-    <label>
-      <input type="radio" name="rb"
-      value="this-other-one">
-      This other one
-    </label>
+    <div class="section1">
+      <label id="name-label">Enter your name:
+        <input id="name" type="text" placeholder="Enter your name" required>
+      </label>
+      <label id="email-label">Enter your email:
+        <input id="email" type="email" placeholder="Enter your email" required>
+      </label>
+      <label id="number-label">Enter an integer between -1 and 11 (exclusive):
+        <input id="number" type="number" min="0" max="10" placeholder="Enter number">
+      </label>
+    </div>
+    <div>
+      <p>Select an option:</p>
+      <select id="dropdown">
+        <option disabled selected>Please select an option</option>
+        <option value="option-a">Option 1</option>
+        <option value="option-2">Option B</option>
+      </select>
+      <p>Select only one of these options:</p>
+      <label>
+        <input type="radio" name="rb" value="this-one" checked>
+        This one
+      </label>
+      <label>
+        <input type="radio" name="rb"
+      value="the-other-one">
+        The other one
+      </label>
+      <p>You can pick multiple options:</p>
+      <label>
+        <input type="checkbox" name="cb1" value="cb1">
+        Top option
+      </label>
+      <label>
+        <input type="checkbox" name="cb2" value="cb2">
+        Middle option
+      </label>
+      <label>
+        <input type="checkbox" name="cb3" value="cb3">
+        Bottom option
+      </label>
+      </div>
+      <div class="div2">
+        <p>Do you have anything else to say?<p>
+        <textarea id="comments" placeholder="Write something lengthy here..."></textarea>
+      </div>  
+      <div>
+        <input type="submit" id="submit" value="Submit">
+      </div>
   </form>
 </body>
 </html>
