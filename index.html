@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Oh look, a survey</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <h1 id="title">Survey Title</h1>
+  <p id="description">This is the description of this survey.</p>
+  <form id="survey-form">
+    <label id="name-label">Enter your name:
+      <input id="name" type="text" placeholder="Enter your name"></input>
+    </label>
+    <label id="email-label">Enter your email:
+      <input id="email" type="email" placeholder="Enter your email"></input>
+    </label>
+    <label id="number-label">Enter an integer between -1 and 11 (exclusive):
+      <input id="number" type="number" min="0" max="10" placeholder="Enter number"></input>
+    </label>
+    <p>Select an option:</p>
+    <select id="dropdown">
+      <option disabled selected>Please select an option</option>
+      <option value="option-a">Option 1</option>
+      <option value="option-2">Option B</option>
+    </select>
+    <p>Select only one of these options:</p>
+    <label>
+      <input type="radio" name="rb" value="this-one" checked>
+      This one
+    </label>
+    <label>
+      <input type="radio" name="rb"
+      value="this-other-one">
+      This other one
+    </label>
+  </form>
+</body>
+</html>
